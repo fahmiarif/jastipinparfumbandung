@@ -6,11 +6,11 @@
     --gold-dark: #8B6B3D;
     --black: #0D0D0D;
     --cream: #FAF7F2;
-    --dark-bg: #111009;
-    --dark-card: #1A1712;
-    --dark-border: #2A2520;
-    --text-muted: #8A7D6B;
-    --white: #FFFFFF;
+    --dark-bg: #FFFFFF;
+    --dark-card: #F7F5F0;
+    --dark-border: #E8E3D8;
+    --text-muted: #7A6F63;
+    --white: #1A1712;
     --wa-green: #25D366;
   }
 
@@ -19,7 +19,7 @@
   body {
     font-family: 'Jost', sans-serif;
     background: var(--dark-bg);
-    color: var(--cream);
+    color: var(--black);
     overflow-x: hidden;
   }
 
@@ -38,7 +38,7 @@
   .hero-bg {
     position: absolute; inset: 0;
     background:
-      linear-gradient(180deg, rgba(13,13,9,0.55) 0%, rgba(13,13,9,0.75) 60%, rgba(13,13,9,0.95) 100%),
+      linear-gradient(180deg, rgba(255,255,255,0.15) 0%, rgba(255,255,255,0.25) 60%, rgba(255,255,255,0.35) 100%),
       url('https://images.unsplash.com/photo-1592945403244-b3fbafd7f539?w=1600&q=80') center/cover no-repeat;
     z-index: 0;
   }
@@ -63,7 +63,7 @@
     font-weight: 300;
     line-height: 1.05;
     letter-spacing: -1px;
-    color: var(--cream);
+    color: var(--black);
     margin-bottom: 0.5rem;
   }
 
@@ -84,7 +84,7 @@
   .hero-desc {
     font-size: 15px;
     font-weight: 300;
-    color: #C8BEB0;
+    color: #5A5450;
     max-width: 480px;
     margin: 0 auto 3rem;
     line-height: 1.9;
@@ -108,13 +108,13 @@
 
   .btn-outline {
     background: transparent;
-    color: var(--cream);
+    color: var(--black);
     text-decoration: none;
     font-size: 11px;
     letter-spacing: 3px;
     text-transform: uppercase;
     padding: 15px 36px;
-    border: 1px solid rgba(201,169,110,0.5);
+    border: 1px solid rgba(139,107,61,0.5);
     font-family: 'Jost', sans-serif;
     font-weight: 300;
     transition: all 0.3s;
@@ -150,7 +150,7 @@
     font-size: clamp(2.2rem, 4vw, 3.5rem);
     font-weight: 300;
     line-height: 1.15;
-    color: var(--cream);
+    color: var(--black);
     margin-bottom: 1.5rem;
   }
 
@@ -192,7 +192,7 @@
 
   .about-text p {
     font-size: 15px; line-height: 2;
-    color: #B5A896; font-weight: 300;
+    color: #6B6561; font-weight: 300;
     margin-bottom: 1.5rem;
   }
 
@@ -288,7 +288,7 @@
   .aroma-name {
     font-family: 'Cormorant Garamond', serif;
     font-size: 1.5rem; font-weight: 400;
-    color: var(--cream); margin-bottom: 0.5rem; line-height: 1.2;
+    color: var(--black); margin-bottom: 0.5rem; line-height: 1.2;
   }
 
   .aroma-desc { font-size: 13px; color: var(--text-muted); font-weight: 300; line-height: 1.7; margin-bottom: 1.2rem; }
@@ -337,7 +337,7 @@
   .step-title {
     font-family: 'Cormorant Garamond', serif;
     font-size: 1.3rem; font-weight: 400;
-    color: var(--cream); margin-bottom: 0.8rem;
+    color: var(--black); margin-bottom: 0.8rem;
   }
 
   .step-desc { font-size: 13px; color: var(--text-muted); font-weight: 300; line-height: 1.8; }
@@ -366,7 +366,7 @@
 
   .ship-title {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 1.8rem; font-weight: 300; color: var(--cream); margin-bottom: 0.5rem;
+    font-size: 1.8rem; font-weight: 300; color: var(--black); margin-bottom: 0.5rem;
   }
 
   .ship-sub { font-size: 11px; letter-spacing: 3px; text-transform: uppercase; color: var(--gold); margin-bottom: 1.5rem; }
@@ -384,7 +384,7 @@
   .testi-text {
     font-family: 'Cormorant Garamond', serif;
     font-size: 1.15rem; font-weight: 300; font-style: italic;
-    color: var(--cream); line-height: 1.9; margin-bottom: 2rem;
+    color: var(--black); line-height: 1.9; margin-bottom: 2rem;
   }
   .testi-name { font-size: 11px; letter-spacing: 3px; text-transform: uppercase; color: var(--gold); }
   .testi-loc { font-size: 12px; color: var(--text-muted); margin-top: 4px; }
@@ -397,7 +397,7 @@
   .cta-bg {
     position: absolute; inset: 0;
     background:
-      linear-gradient(180deg, rgba(13,13,9,0.8) 0%, rgba(13,13,9,0.6) 50%, rgba(13,13,9,0.9) 100%),
+      linear-gradient(180deg, rgba(255,255,255,0.2) 0%, rgba(255,255,255,0.1) 50%, rgba(255,255,255,0.25) 100%),
       url('https://images.unsplash.com/photo-1541643600914-78b084683702?w=1600&q=80') center/cover no-repeat;
     z-index: 0;
   }
@@ -430,7 +430,7 @@
   }
   .footer-brand .brand {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 1.8rem; font-weight: 300; color: var(--cream);
+    font-size: 1.8rem; font-weight: 300; color: var(--black);
     margin-bottom: 0.5rem;
   }
   .footer-brand .brand em { font-style: italic; color: var(--gold); }
@@ -456,14 +456,14 @@
     transition: all 0.4s;
   }
   nav.scrolled {
-    background: rgba(13,13,9,0.95);
+    background: rgba(255,255,255,0.95);
     backdrop-filter: blur(10px);
     border-bottom: 1px solid var(--dark-border);
     padding: 14px 40px;
   }
   .nav-brand {
     font-family: 'Cormorant Garamond', serif;
-    font-size: 1.4rem; font-weight: 300; color: var(--cream);
+    font-size: 1.4rem; font-weight: 300; color: var(--black);
     text-decoration: none;
   }
   .nav-brand em { font-style: italic; color: var(--gold); }
