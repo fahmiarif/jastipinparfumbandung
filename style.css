@@ -398,7 +398,7 @@
     position: absolute; inset: 0;
     background:
       linear-gradient(180deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.45) 50%, rgba(0,0,0,0.55) 100%),
-      url('https://images.unsplash.com/photo-1541643600914-78b084683702?w=1600&q=80') center/cover no-repeat;
+      url('bg-inparfume.jpg') center/cover no-repeat;
     z-index: 0;
   }
   .cta-content { position: relative; z-index: 2; max-width: 600px; margin: 0 auto; }
